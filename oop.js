@@ -3,6 +3,13 @@
 // it should have a color property, that is silver by default
 // it should have a method called "say" that returns whatever string is passed in, with "*~*" at the beginning and end of the string
 
+class Unicorn {
+  constructor(name) {
+    this.name = name;
+    this.color = "Silver";
+  }
+
+}
 
 
 // Write a class called Vampire
@@ -11,6 +18,13 @@
 // it should have a thirsty property, that is true by default
 // it should have a drink method. When called, the thirsty property changes to false
 
+class Vampire {
+  constructor(name, bat) {
+    this.name = name;
+    this.bat = bat;
+    this.thirsty = true;
+  }
+}
 
 
 //  Write a Dragon class
