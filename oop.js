@@ -4,12 +4,21 @@
 // it should have a method called "say" that returns whatever string is passed in, with "*~*" at the beginning and end of the string
 
 class Unicorn {
-  constructor(name) {
+  constructor(name, say) {
     this.name = name;
     this.color = "Silver";
+    this.say = say;
   }
+say() {
+  console.log(`*~* ${say} *~*`)
+}
+}
 
 }
+
+var unicorn1 = new
+Unicorn("Bob", "Hi");
+
 
 
 // Write a class called Vampire
